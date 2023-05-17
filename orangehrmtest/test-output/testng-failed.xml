@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="orangehrmtest.Orangehrm">
+        <methods>
+          <include name="navigating_to_PIM"/>
+          <include name="launch_browser"/>
+          <include name="click_loginbutton"/>
+          <include name="enter_username_and_password"/>
+          <include name="navigating_to_Add_Employee"/>
+          <include name="clicking_save_button"/>
+          <include name="entering_employee_details"/>
+          <include name="launch_website"/>
+        </methods>
+      </class> <!-- orangehrmtest.Orangehrm -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
